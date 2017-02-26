@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/actionRefresh"
+        android:icon="@drawable/refresh_icon"
+        android:title="@string/refresh"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/actionClear"
+        android:icon="@drawable/delete_icon"
+        android:title="Clear"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/actionFakeData"
+        android:icon="@drawable/debug_icon"
+        android:title="Fill with testdata"
+        app:showAsAction="never"/>
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/actionSettings"
+        android:icon="@drawable/settings_icon"
+        android:title="@string/settings"
+        app:showAsAction="never"/>
+</menu>

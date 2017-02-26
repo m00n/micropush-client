@@ -1,0 +1,16 @@
+<resources>
+    <!--Material design primary colors-->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <item name="actionBarTheme">@style/AppBaseTheme.Toolbar</item>
+    </style>
+
+    <!--Action bar-->
+    <style name="AppBaseTheme.Toolbar" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+</resources>
